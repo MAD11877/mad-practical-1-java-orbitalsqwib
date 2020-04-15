@@ -9,6 +9,11 @@ public class Question3
     System.out.print("Please enter an integer: ");
     int i = in.nextInt();
 
+    /**
+     * Yo, due to the limitation of the auto grading system
+     * you do not need to show a prompt for input/output
+     * Just the calculated answers will do
+     */
     System.out.println(String.format("The integer multiplied by itself is %d", i*i));
   }
 }
