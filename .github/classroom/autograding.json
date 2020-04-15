@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Q1",
+      "setup": "javac *.java",
+      "run": "java Question1",
+      "input": "",
+      "output": "Hello World!",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Q2a",
+      "setup": "",
+      "run": "java Question2",
+      "input": "1.74\r\n64",
+      "output": "21.13885",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Q2b",
+      "setup": "",
+      "run": "java Question2",
+      "input": "2.0\r\n80",
+      "output": "20.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Q3a",
+      "setup": "",
+      "run": "java Question3",
+      "input": "4",
+      "output": "16",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Q3b",
+      "setup": "",
+      "run": "java Question3",
+      "input": "0",
+      "output": "0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Q4a",
+      "setup": "",
+      "run": "java Question4",
+      "input": "5",
+      "output": "*****\r\n****\r\n***\r\n**\r\n*",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Q4b",
+      "setup": "",
+      "run": "java Question4",
+      "input": "8",
+      "output": "********\r\n*******\r\n******\r\n*****\r\n****\r\n***\r\n**\r\n*",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Q5a",
+      "setup": "",
+      "run": "java Question5",
+      "input": "5\r\n2\r\n4\r\n1\r\n3\r\n4",
+      "output": "4",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Q5b",
+      "setup": "",
+      "run": "java Question5",
+      "input": "3\r\n1\r\n1\r\n1",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Q5c",
+      "setup": "",
+      "run": "java Question5",
+      "input": "1\r\n1",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
