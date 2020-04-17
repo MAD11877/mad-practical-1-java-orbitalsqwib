@@ -14,6 +14,6 @@ public class Question2
 
     double bmi = kilos/(height*height);
 
-    System.out.println(String.format("Your BMI is %f", bmi));
+    System.out.println(bmi);
   }
 }
