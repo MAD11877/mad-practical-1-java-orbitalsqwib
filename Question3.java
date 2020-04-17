@@ -14,6 +14,6 @@ public class Question3
      * you do not need to show a prompt for input/output
      * Just the calculated answers will do
      */
-    System.out.println(String.format("The integer multiplied by itself is %d", i*i));
+    System.out.println(i*i);
   }
 }
