@@ -27,15 +27,12 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-
-    System.out.print("Please enter an integer representing the number of integers to be entered: ");
     int n = in.nextInt();
 
     List<Integer> intList = new ArrayList<>();
     List<Integer> counter = new ArrayList<>();
 
     for(int i=0;i<n;i++) {
-      System.out.print(String.format("Enter integer %d: ", i+1));
       int input = in.nextInt();
       
       if (!intList.contains(input)) {
