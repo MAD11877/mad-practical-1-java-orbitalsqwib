@@ -61,7 +61,7 @@ public class Question5
       }
     }
 
-    System.out.println(String.format("The mode of the sequence is %d", intList.get(index)));
+    System.out.println(intList.get(index));
     
   }
 }
